@@ -1,6 +1,7 @@
-@use './components/_menu-bar/menu-bar';
-@use './components/_banner/banner';
-@use './components/_about/about';
+@use './components/menu-bar/_menu-bar';
+@use './components/banner/_banner';
+@use './components/about/_about';
+@use './components/footer/_footer';
 
 * {
   margin: 0;
