@@ -1,0 +1,16 @@
+@use './components/_menu-bar/menu-bar';
+@use './components/_banner/banner';
+@use './components/_about/about';
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  body {
+    background-color: black;
+  }
+  
+}
+
