@@ -8,6 +8,7 @@ import Toast from 'primevue/toast'
 import MenuBar from './components/MenuBar.vue';
 import About from './components/About.vue';
 import Banner from './components/Banner.vue';
+import Footer from './components/Footer.vue';
 
 const toast = useToast();
 
@@ -17,4 +18,5 @@ const toast = useToast();
     <MenuBar/>
     <Banner/>
     <About/>
+    <Footer/>
 </template>
