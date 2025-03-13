@@ -1,0 +1,20 @@
+.contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    a {
+      img {
+        width: 3rem;
+      } 
+    }
+  }
+
+}
