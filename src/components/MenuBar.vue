@@ -2,10 +2,10 @@
     <div class="menu-bar">
         <ul>
             <img src="../assets/EO.png" alt="">
-            <li><a href="">Sobre</a></li>
-            <li><a href="">Stacks</a></li>
-            <li><a href="">Projetos</a></li>
-            <li><a href="">Contatos</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#stacks">Stacks</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contacts">Contatos</a></li>
         </ul>
     </div>
 </template>

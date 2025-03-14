@@ -3,6 +3,7 @@
 @use './components/about/_about';
 @use './components/footer/_footer';
 @use './components/contacts/_contacts';
+@use './components/projects/_projects';
 
 * {
   margin: 0;
@@ -10,9 +11,13 @@
   color: white;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
+  html {
+    scroll-behavior: smooth;
+  }
+  
   body {
     background-color: black;
   }
-  
+
 }
 

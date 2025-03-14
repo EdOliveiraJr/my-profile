@@ -1,4 +1,10 @@
 .menu-bar {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: black;
+
   img {
     margin: 1rem;
     width: 4rem;
