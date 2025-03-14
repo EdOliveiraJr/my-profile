@@ -3,22 +3,31 @@
   margin-bottom: 3rem;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   height: 50rem;
-  gap: 3rem;
+  gap: 14rem;
 
   
   .social {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
 
-    a {
-      img {
-        width: 3rem;
-      } 
+    .social-links{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      
+      a {
+        img {
+          width: 3rem;
+        } 
+      }
     }
+
   }
 
   .contact-form {
